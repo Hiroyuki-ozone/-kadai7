@@ -1,0 +1,7 @@
+1. SELECT * FROM gs_an_table WHERE id %2 != 0
+2. SELECT * FROM gs_an_table WHERE id >=4;
+3. SELECT * FROM gs_an_table WHERE email LIKE'test%';
+4. SELECT * FROM gs_an_table ORDER BY indate DESC;
+5. SELECT * FROM gs_an_table WHERE age = 20 ORDER BY indate LIKE '2017-05-26%';
+6. SELECT * FROM gs_an_table ORDER BY indate DESC LIMIT 5;
+7. SELECT age, COUNT(*) AS number FROM gs_an_table GROUP BY age;
